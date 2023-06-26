@@ -1,58 +1,50 @@
-# Customer Satisfaction Analysis
+# Kids Learning Program
 
-The Customer Satisfaction Analysis Model is a machine learning solution designed to analyze customer feedback data and determine the level of customer satisfaction. It aims to provide insights into customer sentiments and help businesses understand and improve their customer experience.
-
-Understanding customer satisfaction is crucial for businesses to identify areas of improvement and enhance customer experience. This ML model leverages natural language processing and sentiment analysis techniques to analyze customer feedback data. By training on labeled data, the model learns to classify customer sentiments as positive, negative, or neutral.
+This is a kids learning program designed to help children learn geometric shapes and about the planets in our solar system in an enjoyable way.
 
 ## Table of Contents
 
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Model Evaluation](#model-evaluation)
 - [Contributing](#contributing)
 
 ## Features
 
-- **Sentiment Classification**: The ML model classifies customer feedback into positive, negative, or neutral sentiments, allowing businesses to gauge overall customer satisfaction levels.
-- **Text Preprocessing**: The model performs text preprocessing techniques, such as tokenization, removing stop words, and lemmatization, to prepare the text data for analysis.
-- **Performance Metrics**: The model calculates performance metrics, including accuracy, precision, recall, and F1-score, to evaluate the effectiveness of the sentiment analysis predictions.
+The game GUI offers the following features:
+
+- **Interactive Buttons**: The GUI includes buttons that can be clicked to perform different actions within the game.
+- **Graphics**: The GUI displays various graphics elements, such as clouds, mountains, trees, houses, rivers, and roads, to create an immersive game environment.
+- **Animation**: The GUI features animation effects, including a moving sun and clouds, to enhance the visual experience.
+- **Educational Content**: The game provides educational content related to shapes. Users can interact with different shapes, including triangles, rectangles, squares, and circles, to learn about their properties.
 
 ## Getting Started
 
-To get started with the Customer Satisfaction Analysis ML Model, follow these steps:
+To run the game, follow these steps:
 
-1. Install the necessary libraries:
+1. Clone the repository to your local machine using the following command:
 ```
-pip install numpy pandas scikit-learn nltk
+git clone https://github.com/your-username/kids-learning-program.git
 ```
-2. Prepare the labeled customer feedback dataset for training. Ensure that the dataset is properly formatted and labeled with corresponding sentiments (positive, negative, or neutral).
-3. Preprocess the text data by applying techniques such as tokenization, removing stop words, and lemmatization. This step helps to clean and normalize the text data.
-4. Split the preprocessed dataset into training and testing sets to train and evaluate the ML model's performance.
-5. Select a suitable machine learning algorithm, such as Naive Bayes, SVM, or RNN, and train the model using the training dataset.
-6. Evaluate the model's performance using the testing dataset by calculating accuracy, precision, recall, and F1-score.
-7. Once the model is trained and evaluated, it can be used to predict the sentiment of new customer feedback data.
+2. Install the necessary dependencies. This code uses the graphics.h library, which is specific to the Borland Turbo C++ compiler.
+3. Compile and run the code using the Borland Turbo C++ compiler or an equivalent compiler that supports the graphics.h library.
+4. Wait for the loading window to finish loading.
+5. The main game window will then appear, featuring a garden scene with various interactive elements.
+
+**Note**: TurboC have a lot errors so be patient while running [[Test Video](https://drive.google.com/file/d/1TN3SNB6Y2Yuy1l07WKBsk75gF793-8eC/view)].
 
 ## Usage
 
-The Customer Satisfaction Analysis ML Model can be utilized in various ways:
+1. Run the program to start the application, using [TurboC](Turbo C%2B%2B 4.0-64Bit.rar).
+2. The loading window will appear while the program is being loaded.
+3. Once the loading is complete, the main window of the game will be displayed.
+4. Click on a house to open a different window and access a specific activity:
+- **Game Window**: This window allows kids to learn about geometric shapes by drawing each shape. Click the corresponding shape button to draw it. To return to the main window, click the back button.
+- **Solar System Window**: This window provides information about the planets in our solar system. It displays the solar system with the names of the planets. The window will automatically close after a while.
+- **Team Window**: This window displays information about the creators of this game. Click the back button to return to the main window.
+5. The program is easy to use and is designed to help kids learn in an enjoyable way.
 
-- **Customer Feedback Analysis**: Use the model to analyze customer feedback data in real-time and gain insights into customer sentiments.
-- **Customer Support Improvement**: Identify areas for improvement based on customer sentiment analysis results and take actions to enhance customer support and satisfaction.
-- **Product/Service Enhancement**: Analyze customer sentiments to understand their experiences with specific products or services and make improvements accordingly.
-- **Marketing Campaigns**: Evaluate the success and impact of marketing campaigns by analyzing customer feedback sentiments and adjusting strategies accordingly.
-
-## Model Evaluation
-
-The Customer Satisfaction Analysis ML Model's performance can be evaluated using various metrics, including:
-
-- **Accuracy**: Measures the overall accuracy of the model's predictions by calculating the percentage of correctly classified sentiments.
-- **Precision**: Indicates the proportion of correctly predicted positive or negative sentiments out of the total predicted positive or negative sentiments.
-- **Recall**: Represents the proportion of correctly predicted positive or negative sentiments out of the total actual positive or negative sentiments.
-- **F1-score**: Combines precision and recall into a single metric to provide a balanced evaluation of the model's performance.
-
-Ensure to assess the model's performance using appropriate evaluation metrics based on the specific requirements and dataset characteristics.
 
 ## Contributing
 
-Contributions to the Customer Satisfaction Analysis Model project are welcome! If you have any suggestions, improvements, or bug fixes, please feel free to open an issue or submit a pull request.
+Thank you for considering contributing to the Kids Learning Program! We welcome any contributions that can enhance the program and make it even better for kids.
