@@ -26,24 +26,27 @@ To run the game, follow these steps:
 ```
 git clone https://github.com/your-username/kids-learning-program.git
 ```
-2. Install the necessary dependencies. This code uses the graphics.h library, which is specific to the Borland Turbo C++ compiler.
-3. Compile and run the code using the Borland Turbo C++ compiler or an equivalent compiler that supports the graphics.h library.
-4. Wait for the loading window to finish loading.
-5. The main game window will then appear, featuring a garden scene with various interactive elements.
+2. Run the program to start the application, using [TurboC](Turbo%20C%2B%2B%204.0-64Bit.rar).
+3. Install the necessary dependencies. This code uses the graphics.h library, which is specific to the Borland Turbo C++ compiler.
+4. Compile and run the code using the Borland Turbo C++ compiler or an equivalent compiler that supports the graphics.h library.
+5. Wait for the loading window to finish loading.
+6. The main game window will then appear, featuring a garden scene with various interactive elements.
+7. Click on a house to open a different window and access a specific activity:
+- **Game Window**: This window allows kids to learn about geometric shapes by drawing each shape. Click the corresponding shape button to draw it. To return to the main window, click the back button.
+- **Solar System Window**: This window provides information about the planets in our solar system. It displays the solar system with the names of the planets. The window will automatically close after a while.
+- **Team Window**: This window displays information about the creators of this game. Click the back button to return to the main window.
+8. The program is easy to use and is designed to help kids learn in an enjoyable way.
 
 **Note**: TurboC have a lot errors so be patient while running [[Test Video](https://drive.google.com/file/d/1TN3SNB6Y2Yuy1l07WKBsk75gF793-8eC/view)].
 
 ## Usage
 
-1. Run the program to start the application, using [TurboC](Turbo%20C%2B%2B%204.0-64Bit.rar).
-2. The loading window will appear while the program is being loaded.
-3. Once the loading is complete, the main window of the game will be displayed.
-4. Click on a house to open a different window and access a specific activity:
-- **Game Window**: This window allows kids to learn about geometric shapes by drawing each shape. Click the corresponding shape button to draw it. To return to the main window, click the back button.
-- **Solar System Window**: This window provides information about the planets in our solar system. It displays the solar system with the names of the planets. The window will automatically close after a while.
-- **Team Window**: This window displays information about the creators of this game. Click the back button to return to the main window.
-5. The program is easy to use and is designed to help kids learn in an enjoyable way.
+Once the game is running, you can interact with the GUI using the mouse. Here are the available actions:
 
+- **Clicking Shape Buttons**: Click on the buttons displayed at the bottom of the screen to select different shapes.
+- **Drawing Shapes**: After selecting a shape, click on the main game window to draw the selected shape.
+- **Switching Between Shapes**: You can switch between different shapes by clicking on the respective buttons again.
+- **Game Navigation**: Use the mouse to navigate through the game. Click on the different buttons within the game to explore various features and educational content.
 
 ## Contributing
 
