@@ -24,7 +24,7 @@ To run the game, follow these steps:
 
 1. Clone the repository to your local machine using the following command:
 ```
-git clone https://github.com/your-username/kids-learning-program.git
+git clone https://github.com/kershrita/Kids-Learning-Program.git
 ```
 2. Run the program to start the application, using [TurboC](Turbo%20C%2B%2B%204.0-64Bit.rar).
 3. Install the necessary dependencies. This code uses the graphics.h library, which is specific to the Borland Turbo C++ compiler.
