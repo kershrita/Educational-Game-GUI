@@ -35,7 +35,7 @@ git clone https://github.com/your-username/kids-learning-program.git
 
 ## Usage
 
-1. Run the program to start the application, using [TurboC](Turbo C%2B%2B 4.0-64Bit.rar).
+1. Run the program to start the application, using [TurboC](Turbo%20C%2B%2B%204.0-64Bit.rar).
 2. The loading window will appear while the program is being loaded.
 3. Once the loading is complete, the main window of the game will be displayed.
 4. Click on a house to open a different window and access a specific activity:
